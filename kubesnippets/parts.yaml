@@ -1,0 +1,21 @@
+{
+  "name": "kubesnippets",
+  "apiVersion": "0.0.1",
+  "kind": "ksonnet.io/parts",
+  "description": "general snippets usefull for services and deployments",
+  "author": "dragos boca <dragos.boca@gmail.com>",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dragosboca/ksonnet-repo"
+  },
+  "bugs": {
+    "url": "https://github.com/dragosboca/ksonnet-repo/issues"
+  },
+  "keywords": [
+    "ksonnet",
+  ],
+  "quickStart": {
+  },
+  "license": "Apache 2.0"
+}
