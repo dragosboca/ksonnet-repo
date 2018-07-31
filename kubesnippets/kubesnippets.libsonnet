@@ -3,7 +3,7 @@ local affinity = k.apps.v1.deployment.mixin.spec.template.spec.affinity.podAntiA
 local affinityTerm = affinity.preferredDuringSchedulingIgnoredDuringExecutionType.mixin.podAffinityTermType;
 
 {
-  parts:: {
+  mixin:: {
     haSinglePodPerNode:: {
       new(labels):: affinity.withPreferredDuringSchedulingIgnoredDuringExecution(
         affinityTerm.withTopologyKey('kubernetes.io/hostname') +
